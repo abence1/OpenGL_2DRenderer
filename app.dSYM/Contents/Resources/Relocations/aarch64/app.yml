@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/app'
+relocations:     []
+...
