@@ -7,3 +7,4 @@ clang++ -std=c++17 -fdiagnostics-color=always -Wall -g \
   -framework OpenGL -framework Cocoa -framework IOKit \
   -framework CoreVideo -framework CoreFoundation \
   -Wno-deprecated
+

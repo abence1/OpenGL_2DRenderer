@@ -1,4 +1,3 @@
-
 #ifndef WINDOW_H
 #define WINDOW_H
 
@@ -20,4 +19,4 @@ private:
     static void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 };
 
-#endif // WINDOW_H
+#endif 
