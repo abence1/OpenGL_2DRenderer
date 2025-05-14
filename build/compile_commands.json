@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/build",
+  "command": "/usr/bin/cc  -I/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/dependencies/include  -arch arm64 -Wall -g -Wno-deprecated -o CMakeFiles/app.dir/src/glad.c.o -c /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/glad.c",
+  "file": "/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/glad.c",
+  "output": "CMakeFiles/app.dir/src/glad.c.o"
+},
+{
+  "directory": "/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/build",
+  "command": "/usr/bin/clang++  -I/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/dependencies/include  -fdiagnostics-color=always -std=gnu++17 -arch arm64 -Wall -g -Wno-deprecated -o CMakeFiles/app.dir/src/main.cpp.o -c /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/main.cpp",
+  "file": "/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/main.cpp",
+  "output": "CMakeFiles/app.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/build",
+  "command": "/usr/bin/clang++  -I/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/dependencies/include  -fdiagnostics-color=always -std=gnu++17 -arch arm64 -Wall -g -Wno-deprecated -o CMakeFiles/app.dir/src/object.cpp.o -c /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/object.cpp",
+  "file": "/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/object.cpp",
+  "output": "CMakeFiles/app.dir/src/object.cpp.o"
+},
+{
+  "directory": "/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/build",
+  "command": "/usr/bin/clang++  -I/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/dependencies/include  -fdiagnostics-color=always -std=gnu++17 -arch arm64 -Wall -g -Wno-deprecated -o CMakeFiles/app.dir/src/shader.cpp.o -c /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/shader.cpp",
+  "file": "/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/shader.cpp",
+  "output": "CMakeFiles/app.dir/src/shader.cpp.o"
+},
+{
+  "directory": "/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/build",
+  "command": "/usr/bin/clang++  -I/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/dependencies/include  -fdiagnostics-color=always -std=gnu++17 -arch arm64 -Wall -g -Wno-deprecated -o CMakeFiles/app.dir/src/vao.cpp.o -c /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/vao.cpp",
+  "file": "/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/vao.cpp",
+  "output": "CMakeFiles/app.dir/src/vao.cpp.o"
+},
+{
+  "directory": "/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/build",
+  "command": "/usr/bin/clang++  -I/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/dependencies/include  -fdiagnostics-color=always -std=gnu++17 -arch arm64 -Wall -g -Wno-deprecated -o CMakeFiles/app.dir/src/window.cpp.o -c /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/window.cpp",
+  "file": "/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/window.cpp",
+  "output": "CMakeFiles/app.dir/src/window.cpp.o"
+}
+]
