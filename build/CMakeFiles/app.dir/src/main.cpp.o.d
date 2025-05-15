@@ -815,6 +815,8 @@ CMakeFiles/app.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/endian.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/has_single_bit.h \
   /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/dependencies/include/custom/window.h \
+  /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/dependencies/include/custom/triangle.h \
+  /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/dependencies/include/custom/object.h \
   /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/dependencies/include/custom/vao.h \
   /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/dependencies/include/custom/shader.h \
-  /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/dependencies/include/custom/object.h
+  /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/dependencies/include/custom/rectangle.h

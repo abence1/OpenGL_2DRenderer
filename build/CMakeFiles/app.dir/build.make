@@ -114,10 +114,24 @@ CMakeFiles/app.dir/src/object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/object.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/object.cpp -o CMakeFiles/app.dir/src/object.cpp.s
 
+CMakeFiles/app.dir/src/rectangle.cpp.o: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/src/rectangle.cpp.o: /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/rectangle.cpp
+CMakeFiles/app.dir/src/rectangle.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/app.dir/src/rectangle.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/rectangle.cpp.o -MF CMakeFiles/app.dir/src/rectangle.cpp.o.d -o CMakeFiles/app.dir/src/rectangle.cpp.o -c /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/rectangle.cpp
+
+CMakeFiles/app.dir/src/rectangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/rectangle.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/rectangle.cpp > CMakeFiles/app.dir/src/rectangle.cpp.i
+
+CMakeFiles/app.dir/src/rectangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/rectangle.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/rectangle.cpp -o CMakeFiles/app.dir/src/rectangle.cpp.s
+
 CMakeFiles/app.dir/src/shader.cpp.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/src/shader.cpp.o: /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/shader.cpp
 CMakeFiles/app.dir/src/shader.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/app.dir/src/shader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/app.dir/src/shader.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/shader.cpp.o -MF CMakeFiles/app.dir/src/shader.cpp.o.d -o CMakeFiles/app.dir/src/shader.cpp.o -c /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/shader.cpp
 
 CMakeFiles/app.dir/src/shader.cpp.i: cmake_force
@@ -128,10 +142,24 @@ CMakeFiles/app.dir/src/shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/shader.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/shader.cpp -o CMakeFiles/app.dir/src/shader.cpp.s
 
+CMakeFiles/app.dir/src/triangle.cpp.o: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/src/triangle.cpp.o: /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/triangle.cpp
+CMakeFiles/app.dir/src/triangle.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/app.dir/src/triangle.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/triangle.cpp.o -MF CMakeFiles/app.dir/src/triangle.cpp.o.d -o CMakeFiles/app.dir/src/triangle.cpp.o -c /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/triangle.cpp
+
+CMakeFiles/app.dir/src/triangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/triangle.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/triangle.cpp > CMakeFiles/app.dir/src/triangle.cpp.i
+
+CMakeFiles/app.dir/src/triangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/triangle.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/triangle.cpp -o CMakeFiles/app.dir/src/triangle.cpp.s
+
 CMakeFiles/app.dir/src/vao.cpp.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/src/vao.cpp.o: /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/vao.cpp
 CMakeFiles/app.dir/src/vao.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/app.dir/src/vao.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/app.dir/src/vao.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/vao.cpp.o -MF CMakeFiles/app.dir/src/vao.cpp.o.d -o CMakeFiles/app.dir/src/vao.cpp.o -c /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/vao.cpp
 
 CMakeFiles/app.dir/src/vao.cpp.i: cmake_force
@@ -145,7 +173,7 @@ CMakeFiles/app.dir/src/vao.cpp.s: cmake_force
 CMakeFiles/app.dir/src/window.cpp.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/src/window.cpp.o: /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/window.cpp
 CMakeFiles/app.dir/src/window.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/app.dir/src/window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/app.dir/src/window.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/window.cpp.o -MF CMakeFiles/app.dir/src/window.cpp.o.d -o CMakeFiles/app.dir/src/window.cpp.o -c /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/window.cpp
 
 CMakeFiles/app.dir/src/window.cpp.i: cmake_force
@@ -161,7 +189,9 @@ app_OBJECTS = \
 "CMakeFiles/app.dir/src/glad.c.o" \
 "CMakeFiles/app.dir/src/main.cpp.o" \
 "CMakeFiles/app.dir/src/object.cpp.o" \
+"CMakeFiles/app.dir/src/rectangle.cpp.o" \
 "CMakeFiles/app.dir/src/shader.cpp.o" \
+"CMakeFiles/app.dir/src/triangle.cpp.o" \
 "CMakeFiles/app.dir/src/vao.cpp.o" \
 "CMakeFiles/app.dir/src/window.cpp.o"
 
@@ -171,13 +201,15 @@ app_EXTERNAL_OBJECTS =
 app: CMakeFiles/app.dir/src/glad.c.o
 app: CMakeFiles/app.dir/src/main.cpp.o
 app: CMakeFiles/app.dir/src/object.cpp.o
+app: CMakeFiles/app.dir/src/rectangle.cpp.o
 app: CMakeFiles/app.dir/src/shader.cpp.o
+app: CMakeFiles/app.dir/src/triangle.cpp.o
 app: CMakeFiles/app.dir/src/vao.cpp.o
 app: CMakeFiles/app.dir/src/window.cpp.o
 app: CMakeFiles/app.dir/build.make
 app: /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/dependencies/library/libglfw.3.4.dylib
 app: CMakeFiles/app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

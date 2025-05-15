@@ -19,9 +19,21 @@
 },
 {
   "directory": "/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/build",
+  "command": "/usr/bin/clang++  -I/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/dependencies/include  -fdiagnostics-color=always -std=gnu++17 -arch arm64 -Wall -g -Wno-deprecated -o CMakeFiles/app.dir/src/rectangle.cpp.o -c /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/rectangle.cpp",
+  "file": "/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/rectangle.cpp",
+  "output": "CMakeFiles/app.dir/src/rectangle.cpp.o"
+},
+{
+  "directory": "/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/build",
   "command": "/usr/bin/clang++  -I/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/dependencies/include  -fdiagnostics-color=always -std=gnu++17 -arch arm64 -Wall -g -Wno-deprecated -o CMakeFiles/app.dir/src/shader.cpp.o -c /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/shader.cpp",
   "file": "/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/shader.cpp",
   "output": "CMakeFiles/app.dir/src/shader.cpp.o"
+},
+{
+  "directory": "/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/build",
+  "command": "/usr/bin/clang++  -I/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/dependencies/include  -fdiagnostics-color=always -std=gnu++17 -arch arm64 -Wall -g -Wno-deprecated -o CMakeFiles/app.dir/src/triangle.cpp.o -c /Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/triangle.cpp",
+  "file": "/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/triangle.cpp",
+  "output": "CMakeFiles/app.dir/src/triangle.cpp.o"
 },
 {
   "directory": "/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/build",

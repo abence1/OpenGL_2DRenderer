@@ -11,7 +11,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/glad.c" "CMakeFiles/app.dir/src/glad.c.o" "gcc" "CMakeFiles/app.dir/src/glad.c.o.d"
   "/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/main.cpp" "CMakeFiles/app.dir/src/main.cpp.o" "gcc" "CMakeFiles/app.dir/src/main.cpp.o.d"
   "/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/object.cpp" "CMakeFiles/app.dir/src/object.cpp.o" "gcc" "CMakeFiles/app.dir/src/object.cpp.o.d"
+  "/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/rectangle.cpp" "CMakeFiles/app.dir/src/rectangle.cpp.o" "gcc" "CMakeFiles/app.dir/src/rectangle.cpp.o.d"
   "/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/shader.cpp" "CMakeFiles/app.dir/src/shader.cpp.o" "gcc" "CMakeFiles/app.dir/src/shader.cpp.o.d"
+  "/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/triangle.cpp" "CMakeFiles/app.dir/src/triangle.cpp.o" "gcc" "CMakeFiles/app.dir/src/triangle.cpp.o.d"
   "/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/vao.cpp" "CMakeFiles/app.dir/src/vao.cpp.o" "gcc" "CMakeFiles/app.dir/src/vao.cpp.o.d"
   "/Users/acsbence/Documents/C++/2drender/OpenGL_2DRenderer/src/window.cpp" "CMakeFiles/app.dir/src/window.cpp.o" "gcc" "CMakeFiles/app.dir/src/window.cpp.o.d"
   )
