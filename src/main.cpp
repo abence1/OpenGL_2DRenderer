@@ -2,22 +2,27 @@
 #include <GLFW/glfw3.h>
 #include "custom/main.h"
 
-#include <iostream>
-#include <fstream>
-#include <string>
-#include <sstream>
-#include <vector>
-
 #include "custom/window.h"
-#include "custom/vao.h"
-#include "custom/shader.h"
-
-
+#include "custom/triangle.h"
+#include "custom/rectangle.h"
+/*
 float vertices[] = {
-    // First triangle (red)
-    -0.9f, -0.5f, 0.0f,  0.0f, 1.0f, 1.0f, 
-    0.0f, -0.5f, 0.0f,   0.0f, 1.0f, 0.0f,  
-    -0.45f,  0.5f, 0.0f,  0.0f, 1.0f, 0.0f,  
+    0.5f,  0.5f, 0.0f, 1.0f, 0.0f, 0.0f,   
+    0.5f, -0.5f, 0.0f, 1.0f, 0.0f, 0.0f,  
+   -0.5f, -0.5f, 0.0f, 1.0f, 0.0f, 0.0f,  
+   -0.5f,  0.5f, 0.0f, 1.0f, 0.0f, 0.0f 
+};*/
+
+int vertices_int[] = {
+    600, 150, 0, 255, 0, 0,    // (0.5, 0.5) → pixel (600,150), color red
+    600, 450, 0, 255, 0, 0,    // (0.5, -0.5) → pixel (600,450), color red
+    200, 450, 0, 255, 0, 0,    // (-0.5, -0.5) → pixel (200,450), color red
+    200, 150, 0, 255, 0, 0     // (-0.5, 0.5) → pixel (200,150), color red
+};
+
+unsigned int indices[] = {
+    0, 1, 3,
+    1, 2, 3
 };
 
 int main()
@@ -26,22 +31,20 @@ int main()
     Window win("GLFW Window");
     GLFWwindow* window = win.getWindow();
 
-    // setup
-    VAO vao(vertices, sizeof(vertices));
-    Shader shader;
+    int vertexCount = sizeof(vertices_int) / sizeof(int);
+    float* vertices = win.pixelToNDC(vertices_int, vertexCount);
+
+    Rectangle rectangle(vertices, sizeof(float) * vertexCount, indices, sizeof(indices));
+    delete[] vertices;
 
     // render loop
     while (!glfwWindowShouldClose(window))
     {
         win.processInput();
-
-        // draw
-        vao.Bind();
-        shader.linkProgram();
-        glDrawArrays(GL_TRIANGLES, 0, 3);
-        vao.Unbind();
+        rectangle.draw();
         glfwSwapBuffers(window);
         glfwPollEvents();
     }
     return 0;
 }
+

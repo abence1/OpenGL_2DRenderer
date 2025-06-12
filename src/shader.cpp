@@ -8,10 +8,10 @@
 
 Shader::Shader() 
 {
-    std::string vertexShaderCode = readShader("res/shaders/vertex.shader");
+    std::string vertexShaderCode = readShader("../res/shaders/vertex.shader");
     const char* vertexShaderSource = vertexShaderCode.c_str();
 
-    std::string fragmentShaderCode = readShader("res/shaders/fragment.shader");
+    std::string fragmentShaderCode = readShader("../res/shaders/fragment.shader");
     const char* fragmentShaderSource = fragmentShaderCode.c_str();
 
     //vertex shader
@@ -42,6 +42,11 @@ void Shader::linkProgram()
 
     glDeleteShader(m_VertexShader);
     glDeleteShader(m_FragmentShader);
+}
+
+void Shader::unLinkProgram()
+{
+    glUseProgram(0);
 }
 
 std::string Shader::readShader(const std::string& filepath)

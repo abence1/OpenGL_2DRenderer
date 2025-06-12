@@ -1,7 +1,6 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
-#include <istream>
 #include <string>
 #ifndef MAIN_H
 #define MAIN_H

@@ -2,7 +2,6 @@
 #define WINDOW_H
 
 #include <GLFW/glfw3.h>
-#include <string>
 
 class Window {
 public:
@@ -11,7 +10,7 @@ public:
 
     GLFWwindow* getWindow();
     void processInput();
-
+    float* pixelToNDC(int* vertices, unsigned int size);
 private:
     const char* m_Title;
     GLFWwindow* m_Window;
